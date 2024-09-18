@@ -6,7 +6,7 @@ from src.utils import *
 num_workers = 10
 
 my_data=[]
-bias = 5
+bias=10
 
 for i in range(num_workers):
     my_data.append(np.random.rand(100,100,100))
@@ -16,6 +16,6 @@ def covary(matrix, bias):
 
 output = multipool(covary, bias, iterable=my_data, num_workers=num_workers)
 
-pdump(output, '/home/diya/Documents/quest_tutorial/picklejar/big_discovery.pickle')
+pdump(output, '../picklejar/big_discovery.pickle')
 
 print('success!')
