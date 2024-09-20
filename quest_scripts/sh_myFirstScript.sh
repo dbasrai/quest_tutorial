@@ -5,7 +5,7 @@
 #SBATCH --nodes=1 
 #SBATCH --ntasks-per-node=10
 #SBATCH --time=00:00:05
-#SBATCH --mem=16
+#SBATCH --mem=16g
 #SBATCH --job-name=quest_tutorial
 
 
