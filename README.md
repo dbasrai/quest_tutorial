@@ -40,7 +40,9 @@ I use Globus to transfer files. See set-up for there, then I use web GUI [app.gl
 
 Submit submission script with `sbatch XXX.sh`. Make sure your partition/job length/memory usage/num_cores all "match up": 
 
-![](partitions.png)
+![](media/partitions.png)
+
+![](media/waittimes.png)
 
 See sample submission script for exact make-up of script.
 
