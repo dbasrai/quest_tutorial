@@ -52,3 +52,7 @@ See sample submission script for exact make-up of script.
 
 `scancel JOBID` to cancel job
 
+`seff JOBID` for memory usage of completed job
+
+`sacct -X` for status of all jobs over last week or so
+
