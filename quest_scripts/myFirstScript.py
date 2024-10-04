@@ -8,7 +8,7 @@ num_workers =10
 my_data=[]
 bias=10
 
-for i in range(100):
+for i in range(50):
     my_data.append(np.random.rand(5000,100))
 
 def covinv(matrix, bias):
