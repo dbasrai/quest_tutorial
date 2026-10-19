@@ -26,6 +26,10 @@ Activating personal endpoint: [https://www.globus.org/globus-connect-personal](h
 
 I use SSH to connect. I can't remember if there was anymore set-up than this, but I believe once you're granted allocation you can use `ssh NETID@quest.northwestern.edu`
 
+### installing software
+
+https://rcdsdocs.it.northwestern.edu/systems/quest/user-guide/modules/modules.html
+
 ### Transfering scripts
 
 I suggest using git to clone code onto quest. Git comes preinstalled on the log-in nodes, so `git clone REPO.git` ought to work out of the box.
